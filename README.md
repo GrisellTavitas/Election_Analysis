@@ -20,7 +20,13 @@ The analysis of the election shows that:
 
 - There were 369,711 votes cast in the election.
 
-- 
+- These are the number of votes and percentage of the total for each county.
+
+![County Votes](https://user-images.githubusercontent.com/90433064/136729237-d11d468f-16cd-4607-96b0-3d7c8d0220a5.png)
+
+- The largest number of votes, was represented in the county of Denver, with a total of 306,055 votes.
+
+![Largest num of votes](https://user-images.githubusercontent.com/90433064/136729378-76229ebd-f143-4114-b6f6-60487af17579.png)
 
 - The candidates were:
 
@@ -48,5 +54,13 @@ The analysis of the election shows that:
 
 ## Challenge Overview
 
-![Outcome election_analysis](https://user-images.githubusercontent.com/90433064/136664481-6e7e3eba-3ce8-432b-a80e-e12a567b8248.png)
+![Outcome election_analysis_complete](https://user-images.githubusercontent.com/90433064/136729908-e73a3e93-6bf4-4853-80d6-bd786d1c580d.png)
 
+## Election-Audit Summary
+This election-audit has been a very helpful and practical tool for the people in charge of the administration of the election results, since we worked with a data of almost 400,000 elements that in other cases could have taken much more time to concentrate  and to be able to analyze it.
+
+The results gave us very important information for all involved in the elections, since they show which counties we should pay attention for future elections, and / or what strategies have worked for the candidate and the party, to replicate the model in some other counties.
+
+Actually this script can be used from every moment of the election: from when the voter cast his vote, to the moment of every County / State has its own results; meaning that this code can be used in every type of election, from a county to a country. We only have to modify the code, and create a loop that runs into every range that we would like to analyze to get the result about.
+
+We could also go deeper, and to get the result of absentism, by getting the total of people who can cast a vote, and deducted by the final total votes. This kind of information is very important as well for the candidates, and for the political parties, because this indicator could be a target for future campaigns, in order to generate enough interest in the people to go out and cast their vote on their favor.
